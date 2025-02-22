@@ -30,7 +30,7 @@ st.markdown('<h1 class="title">TalentScout AI Hiring Chatbot 🤖</h1>', unsafe_
 
 # Set background image using a local asset
 def set_background():
-    image_path = "assets/Blue Earth Wallpaper Jpg.jpg"
+    image_path = "assets/Light Blue Wallpaper High Definition Quality Widescreen.jpg"
     with open(image_path, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read()).decode()
     st.markdown(
